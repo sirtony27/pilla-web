@@ -20,7 +20,7 @@ export const CartDrawer = () => {
     const totalPrice = items.reduce((sum, item) => sum + item.price, 0);
 
     const handleWhatsAppCheckout = () => {
-        const phoneNumber = "5491112345678"; // Placeholder number
+        const phoneNumber = "5492915764359"; // Updated Numberr
 
         let message = `Hola, me interesa encargar el siguiente pedido:\n\n`;
         items.forEach((item, index) => {
